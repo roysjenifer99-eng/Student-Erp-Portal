@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f1f5f9;
+}
+
+/* LOGIN */
+.login-container {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.login-container h1 {
+  color: #1e293b;
+}
+
+.login-container input {
+  display: block;
+  margin: 10px auto;
+  padding: 12px;
+  width: 260px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* LAYOUT */
+.layout {
+  display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background: linear-gradient(180deg, #1e293b, #334155);
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar p {
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sidebar p:hover {
+  background: #475569;
+}
+
+.sidebar button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background: #ef4444;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 40px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 90px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+/* BUTTON */
+.pay-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
